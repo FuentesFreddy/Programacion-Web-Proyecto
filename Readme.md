@@ -15,3 +15,8 @@ Este proyecto consiste en el desarrollo de un sitio web estático (Hoja de Vida)
 Desde la terminal, en la raíz del proyecto, ejecuta:
 ```bash
 docker build -t mi-cv-web .
+
+### 2. Ejecutar el contenedor
+Para iniciar el sitio en el puerto 8080:
+```bash
+docker run -d -p 8080:80 --name mi-cv-container mi-cv-web
