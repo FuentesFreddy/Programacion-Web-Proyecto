@@ -27,6 +27,6 @@ docker run -d -p 8080:80 --name mi-cv-container mi-cv-web
 Abre tu navegador e ingresa a: http://localhost:8080
 
 ### Imagen en Docker Hub
-URL de la imagen: https://hub.docker.com/r/fjfuentes1/mi-cv-web
-Comando para descargar la imagen (Pull): docker pull fjfuentes1/mi-cv-web:latest
-Comando para ejecutar el contenedor desde la imagen pública: docker run -d -p 8080:80 fjfuentes1/mi-cv-web:latest
+* URL de la imagen: https://hub.docker.com/r/fjfuentes1/mi-cv-web
+* Comando para descargar la imagen (Pull): docker pull fjfuentes1/mi-cv-web:latest
+* Comando para ejecutar el contenedor desde la imagen pública: docker run -d -p 8080:80 fjfuentes1/mi-cv-web:latest
